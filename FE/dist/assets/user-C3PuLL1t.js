@@ -1,0 +1,1 @@
+import{C as r}from"./index-B4C7dQAl.js";const t=r("user",{state:()=>({user:JSON.parse(localStorage.getItem("user"))||null}),actions:{setUser(e){this.user=e,localStorage.setItem("user",JSON.stringify(e))},clearUser(){this.user=null,localStorage.removeItem("user")}}});export{t as u};
